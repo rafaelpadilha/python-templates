@@ -13,5 +13,7 @@ Building app img:
 ```console
 $ docker build -t myimg .
 ```
-
+Running a container:
+```console
 docker run -d --name mycontainer myimg
+```
